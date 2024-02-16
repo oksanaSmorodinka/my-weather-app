@@ -28,18 +28,21 @@
       </header>
       <main>
         <div class="weather-app-data">
-          <div class="weather-app-temperature" id="temperature">20</div>
-          <div class="weatehr-app-unit">°C</div>
-          <div id="icon">🌞</div>
-          <div>
-            <p class="weather-app-details">
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-temperature" id="temperature">20</div>
+            <div class="weatehr-app-unit">°C</div>
+          </div>
+          <div class="weather-app-details">
+            <div class="icon-class" id="icon">🌞</div>
+            <p>
               <span id="description"> sunny</span>
               <br />
               Humidity: <span id="humidity"></span>, Wind:
               <span id="wind-speed"></span>
+              <br />
+              <span class="weather-app-city" id="city">city</span>
+              <span id="time"> 20/01/2024</span>
             </p>
-            <h1 class="weather-app-city" id="city">city</h1>
-            <span id="time"> 20/01/2024</span>
           </div>
         </div>
       </main>

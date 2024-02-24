@@ -56,7 +56,7 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 .weather-app-temperature {
   font-size: 150px;

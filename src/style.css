@@ -49,10 +49,13 @@ main {
   padding: 30px 0;
 }
 
-p {
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
 }
+
 .weather-app-temperature-container {
-  display: inline-block;
+  display: flex;
   margin-left: 50px;
 }
 .weather-app-temperature {
@@ -60,22 +63,19 @@ p {
   font-weight: 100;
 }
 .weather-app-unit {
+  margin-top: 35px;
   font-size: 20px;
   font-weight: 400;
-  position: relative;
-  bottom: 90px;
 }
 .weather-app-details {
-  display: inline-block;
   font-size: 15px;
   color: rgb(255, 255, 255);
   line-height: 24px;
   font-weight: 300;
   margin-left: 100px;
+  margin-right: 50px;
 }
 .weather-description {
-  display: inline-block;
-  justify-content: flex-start;
 }
 .weather-app-city {
   font-weight: 700;
